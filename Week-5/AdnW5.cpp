@@ -131,10 +131,12 @@ printf("NULL\n");
 int main() {
 int choice, subchoice;
 do {
+	
 printf("\n===== DOUBLY LINKED LIST =====\n");
 printf("1. Insertion\n2. Deletion\n3. Traversal\n4. Exit\nEnter choice: ");
 scanf("%d", &choice);
 switch (choice) {
+	
 case 1:
 printf("\n1.Beginning\n2.Middle\n3.End\n");
 scanf("%d", &subchoice);
